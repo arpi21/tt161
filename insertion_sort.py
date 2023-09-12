@@ -6,4 +6,8 @@ def insertion_sort(arr):
             arr[j + 1] = arr[j]
             j -= 1
         arr[j + 1] = current
+        
+arr = [12, 11, 13, 5, 6]
+insertion_sort(arr)
+print("Sorted array:", arr)
 
