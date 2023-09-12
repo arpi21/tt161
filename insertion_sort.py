@@ -9,4 +9,5 @@ def insertion_sort(arr):
 
 arr = [12, 11, 13, 5, 6]
 insertion_sort(arr)
+#__
 print("Sorted array:", arr)
